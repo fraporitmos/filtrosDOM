@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-black">
+    <div>
+        <section class="m-16 flex gap-8 justify-center flex-row">
+            <button 
+            class=" px-6 py-2 text-indigo-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-indigo-300 focus:outline-none">
+            Normalizar
+        </button>
+            <button id="btnFiltrarCategoria"
+                class=" px-6 py-2 text-teal-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-teal-300 focus:outline-none">
+                Filtrar catgoria
+            </button>
+
+            <button
+                class=" px-6 py-2 text-indigo-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-indigo-300 focus:outline-none">
+                Filtrar mayores a 50
+            </button>
+
+            <button
+                class=" px-6 py-2 text-indigo-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-indigo-300 focus:outline-none">
+                Filtrar menores a 50
+            </button>
+
+            <button
+                class=" px-6 py-2 text-indigo-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-indigo-300 focus:outline-none">
+                Encontrar producto de 9.99
+            </button>
+
+            <button
+                class=" px-6 py-2 text-indigo-300 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-indigo-300 focus:outline-none">
+                Encontrar el id 11
+            </button>
+
+        </section>
+
+        <section id="containerProductos" class="m-16 flex justify-center flex-wrap gap-8  ">
+
+        </section>
+    </div>
+</body>
+
+<script src="database.js"></script>
+<script src="website.js"></script>
+
+</html>
