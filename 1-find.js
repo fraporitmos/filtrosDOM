@@ -1,5 +1,6 @@
 
 //obtener el primer elemento que cumple una condición y la retorna
+//NO RETORNA UN ARRAY =, RETORNA EL ELEMENTO 
 let productoBuscado = productosArray.find(producto =>  producto.id == 2)
 console.log(productoBuscado)
 
